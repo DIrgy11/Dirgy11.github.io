@@ -1,1 +1,0 @@
-dirgy yang buat
