@@ -1,14 +1,93 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device=width, initial-scale=1.0"
-        <title>document</title>
+    <meta charset="UTF-8">
+    <title>Website Saya - Beranda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-    <body>
-    <h1>Selamat datng</h1>
-    <a href="index.html">index</a>
-    <a href="about.html">about</a>
-    <a href="contact.html">contact</a>
-    <h2>dirgy</h2>
-    </body>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <div id="header">
+        <h1>Website Dirgy Alfarezy</h1>
+        <p>Tempat saya belajar membuat website pertama kali</p>
+    </div>
+
+    <!-- ===== NAVIGASI ===== -->
+    <div id="navigasi">
+        <a href="index.html" class="aktif">Beranda</a>
+        <a href="about.html">Tentang Saya</a>
+        <a href="contact.html">Kontak</a>
+    </div>
+
+    <!-- ===== WRAPPER 2 KOLOM ===== -->
+    <div id="wrapper">
+
+        <!-- Kolom Kiri: Konten Utama -->
+        <div id="konten">
+            <h2>Selamat Datang di Website Saya!</h2>
+
+            <p>
+                Halo! Nama saya Budi. Ini adalah website pertama saya yang saya buat
+                sambil belajar HTML dan CSS. Saya masih pemula, jadi tampilan website
+                ini mungkin masih sederhana. Tapi saya terus belajar dan berlatih
+                setiap hari supaya bisa membuat website yang lebih bagus.
+            </p>
+
+            <p>
+                Di website ini saya akan berbagi cerita tentang perjalanan saya
+                belajar pemrograman web. Saya menggunakan HTML untuk membuat
+                struktur halaman dan CSS untuk mengatur tampilannya.
+            </p>
+
+            <p>
+                Saya belajar dari berbagai sumber seperti buku, video tutorial, dan
+                mencoba langsung di text editor. Kadang ada error yang membingungkan,
+                tapi itu justru membuat saya semakin ingin mengerti.
+            </p>
+
+            <h2>Kegiatan Terbaru</h2>
+            <p>
+                Minggu ini saya sedang belajar tentang properti <strong>float</strong>
+                di CSS untuk membuat tata letak dua kolom. Ternyata cukup tricky,
+                tapi sudah mulai paham setelah beberapa kali mencoba.
+            </p>
+            <p>
+                Langkah selanjutnya saya ingin belajar membuat form dan mungkin
+                sedikit JavaScript supaya website bisa lebih interaktif.
+            </p>
+        </div>
+
+        <!-- Kolom Kanan: Sidebar -->
+        <div id="sidebar">
+            <h3>Tautan Cepat</h3>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+
+            <h3 style="margin-top:15px;">Kategori Belajar</h3>
+            <ul>
+                <li><a href="#">HTML Dasar</a></li>
+                <li><a href="#">CSS Styling</a></li>
+                <li><a href="#">Layout Float</a></li>
+                <li><a href="#">Form & Input</a></li>
+            </ul>
+
+            <div class="kotak-info">
+                <strong>Info:</strong><br>
+                Website ini dibuat menggunakan HTML dan CSS murni tanpa framework.
+                Semua kode ditulis sendiri untuk latihan belajar.
+            </div>
+        </div>
+
+    </div><!-- akhir wrapper -->
+
+    <!-- ===== FOOTER ===== -->
+    <div id="footer">
+        <p>&copy; 2026 Website Saya. Dibuat dengan semangat belajar.</p>
+    </div>
+
+</body>
 </html>

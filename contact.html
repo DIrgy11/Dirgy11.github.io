@@ -1,11 +1,98 @@
-<html>
+<html lang="id">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device=width, initial-scale=1.0"
-        <title>document</title>
+    <meta charset="UTF-8">
+    <title>Website Saya - Kontak</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Selamat dataang di website</h1>
-    <h2>dirssssfgy</h2>
+
+    <!-- ===== HEADER ===== -->
+    <div id="header">
+        <h1>Muh. Dirgy Alfarezy B</h1>
+        <p>Tempat saya belajar membuat website pertama kali</p>
+    </div>
+
+    <!-- ===== NAVIGASI ===== -->
+    <div id="navigasi">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">Tentang Saya</a>
+        <a href="contact.html" class="aktif">Kontak</a>
+    </div>
+
+    <!-- ===== WRAPPER 2 KOLOM ===== -->
+    <div id="wrapper">
+
+        <!-- Kolom Kiri: Konten Utama -->
+        <div id="konten">
+            <h2>Hubungi Saya</h2>
+
+            <p>
+                Kalau kamu ingin bertanya, berdiskusi tentang belajar web, atau
+                hanya sekadar menyapa, silakan isi form di bawah ini. Saya akan
+                balas pesan kamu secepatnya!
+            </p>
+
+            <!-- Form Kontak -->
+            <form class="form-kontak" action="#" method="post">
+
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu">
+
+                <label for="email">Alamat Email:</label>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com">
+
+                <label for="subjek">Subjek:</label>
+                <input type="text" id="subjek" name="subjek" placeholder="Topik pesan kamu">
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" placeholder="Tulis pesanmu di sini..."></textarea>
+
+                <input type="submit" value="Kirim Pesan">
+
+            </form>
+
+            <h2>Informasi Kontak Lain</h2>
+            <p>
+                Kamu juga bisa menghubungi saya melalui cara-cara berikut:
+            </p>
+            <ul style="padding-left: 20px; line-height: 2.0;">
+                <li><strong>Email:</strong> budi@email.com</li>
+                <li><strong>Instagram:</strong> @budi_belajarcoding</li>
+                <li><strong>GitHub:</strong> github.com/budisantoso</li>
+                <li><strong>Lokasi:</strong> Yogyakarta, Indonesia</li>
+            </ul>
+        </div>
+
+        <!-- Kolom Kanan: Sidebar -->
+        <div id="sidebar">
+            <h3>Tautan Cepat</h3>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+
+            <h3 style="margin-top:15px;">Jam Aktif</h3>
+            <ul>
+                <li>Senin - Jumat</li>
+                <li>Pukul 19.00 - 22.00</li>
+                <li>Sabtu - Minggu</li>
+                <li>Pukul 10.00 - 21.00</li>
+            </ul>
+
+            <div class="kotak-info">
+                <strong>Catatan:</strong><br>
+                Form di atas belum berfungsi sungguhan karena saya belum belajar
+                cara memproses form dengan server. Ini masih latihan tampilan saja!
+            </div>
+        </div>
+
+    </div><!-- akhir wrapper -->
+
+    <!-- ===== FOOTER ===== -->
+    <div id="footer">
+        <p>&copy; 2026 Website Saya. Dibuat dengan semangat belajar.</p>
+    </div>
+
 </body>
 </html>

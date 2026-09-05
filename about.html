@@ -1,11 +1,130 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device=width, initial-scale=1.0"
-        <title>document</title>
+    <meta charset="UTF-8">
+    <title>Website Saya - Tentang Saya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Selamat dataang di rumah</h1>
-    <h2>dirssssfgy</h2>
+
+    <!-- ===== HEADER ===== -->
+    <div id="header">
+        <h1>Website Saya</h1>
+        <p>Tempat saya belajar membuat website pertama kali</p>
+    </div>
+
+    <!-- ===== NAVIGASI ===== -->
+    <div id="navigasi">
+        <a href="index.html">Beranda</a>
+        <a href="about.html" class="aktif">Tentang Saya</a>
+        <a href="contact.html">Kontak</a>
+    </div>
+
+    <!-- ===== WRAPPER 2 KOLOM ===== -->
+    <div id="wrapper">
+
+        <!-- Kolom Kiri: Konten Utama -->
+        <div id="konten">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Perkenalkan, nama saya <strong>Budi Santoso</strong>. Saya berumur
+                19 tahun dan saat ini sedang belajar web development secara otodidak.
+                Saya tinggal di Yogyakarta dan sangat tertarik dengan dunia teknologi
+                dan pemrograman.
+            </p>
+
+            <p>
+                Saya mulai belajar HTML dari nol sekitar 3 bulan yang lalu. Awalnya
+                terasa sulit karena banyak tag dan aturan yang harus dihapal, tapi
+                lama-kelamaan mulai terasa menyenangkan. Sekarang saya sedang
+                fokus belajar CSS supaya halaman web saya terlihat lebih rapi.
+            </p>
+
+            <h2>Data Diri</h2>
+
+            <!-- Tabel data diri sederhana -->
+            <table>
+                <tr>
+                    <th>Keterangan</th>
+                    <th>Isi</th>
+                </tr>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>Budi Santoso</td>
+                </tr>
+                <tr>
+                    <td>Usia</td>
+                    <td>19 Tahun</td>
+                </tr>
+                <tr>
+                    <td>Kota</td>
+                    <td>Yogyakarta</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>Pelajar / Otodidak</td>
+                </tr>
+                <tr>
+                    <td>Mulai Belajar</td>
+                    <td>Januari 2026</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>budi@email.com</td>
+                </tr>
+            </table>
+
+            <h2>Keahlian yang Sedang Dipelajari</h2>
+            <p>
+                Berikut ini adalah beberapa hal yang sedang saya pelajari saat ini:
+            </p>
+            <ul style="padding-left: 20px; line-height: 1.9;">
+                <li>HTML - Struktur halaman web (sudah lumayan paham)</li>
+                <li>CSS - Menata tampilan dan layout (masih belajar float)</li>
+                <li>Membuat navigasi dan link antar halaman</li>
+                <li>Menggunakan warna dan font yang cocok</li>
+                <li>Membuat form kontak sederhana</li>
+            </ul>
+
+            <h2>Tujuan Saya</h2>
+            <p>
+                Tujuan saya belajar web development adalah agar saya bisa membuat
+                website sendiri untuk portofolio. Suatu saat saya ingin bisa bekerja
+                sebagai web developer atau freelancer. Saya percaya dengan terus
+                berlatih, saya pasti bisa mencapai tujuan itu.
+            </p>
+        </div>
+
+        <!-- Kolom Kanan: Sidebar -->
+        <div id="sidebar">
+            <h3>Tautan Cepat</h3>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+
+            <h3 style="margin-top:15px;">Hobi Saya</h3>
+            <ul>
+                <li><a href="#">Membaca buku</a></li>
+                <li><a href="#">Menonton tutorial</a></li>
+                <li><a href="#">Main game PC</a></li>
+                <li><a href="#">Nulis kode</a></li>
+            </ul>
+
+            <div class="kotak-info">
+                <strong>Motto Saya:</strong><br><br>
+                "Tidak ada yang sulit kalau mau terus mencoba dan belajar dari kesalahan."
+            </div>
+        </div>
+
+    </div><!-- akhir wrapper -->
+
+    <!-- ===== FOOTER ===== -->
+    <div id="footer">
+        <p>&copy; 2026 Website Saya. Dibuat dengan semangat belajar.</p>
+    </div>
+
 </body>
 </html>
