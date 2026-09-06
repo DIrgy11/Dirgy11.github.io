@@ -10,13 +10,20 @@
     <!-- ===== HEADER ===== -->
     <div id="header">
         <h1>Portofolio Dirgy</h1>
-        <p>Tugas Membuat Web Porofolio</p>
+        <p>Tugas Membuat Web Portofolio</p>
     </div>
 
     <!-- ===== NAVIGASI ===== -->
     <div id="navigasi">
         <a href="index.html" class="aktif">Beranda</a>
-        <a href="about.html">Tentang Saya</a>
+        <div class="dropdown">
+            <a href="about.html">Tentang Saya &#9662;</a>
+            <div class="dropdown-menu">
+                <a href="about.html">Tentang Saya</a>
+                <a href="hobby.html">Hobi</a>
+                <a href="motto.html">Motto</a>
+            </div>
+        </div>
         <a href="contact.html">Kontak</a>
     </div>
 
@@ -28,34 +35,29 @@
             <h2>Selamat Datang di Website Saya!</h2>
 
             <p>
-                Halo Perkenalakan nama saya Muh Dirgy Alfarezy B 
-                dari Universitas Negeri Makassar Dari Jurusan JTIK 
-                dengan Prodi Teknik Komputer.
-            </p>
+                Halo, perkenalkan nama saya Muh. Dirgy Alfarezy B dari Universitas Negeri Makassar, 
+                Jurusan JTIK dengan Program Studi Teknik Komputer.
             </p>
 
             <img
-            id="gambar-utama"
-            src="images/fotosaya.png"
-            alt="Foto Dirgy"
-            title="Arahkan kursor ke gambar untuk melihat efeknya!"
->
+                id="gambar-utama"
+                src="images/fotosaya.png"
+                alt="Foto Dirgy"
+                title="Arahkan kursor ke gambar untuk melihat efeknya!"
+            >
+
             <p>
-                Di website ini terdapat kontak saya dan informasi tentang saya.
+                Di website ini terdapat kontak saya dan berbagai informasi mengenai data diri serta aktivitas saya.
             </p>
 
             <p>
-                saya belajar coding mulai dari masuk kuliah walaupun masih banyak 
-                bahasa dan syntax yang saya tidak ketahui saya mencoba sebisanya
+                Saya belajar coding mulai dari masuk kuliah. Walaupun masih banyak bahasa dan sintaksis yang harus dipelajari, 
+                saya terus mencoba memahaminya langkah demi langkah.
             </p>
 
-            <h2>Tugas saya</h2>
+            <h2>Tugas Saya</h2>
             <p>
-                Website ini adalah tugas dari Pemograman web yaitu project website portofolio yang di deploy ke github
-            </p>
-            <p>
-                Langkah selanjutnya saya ingin belajar membuat form dan mungkin
-                sedikit JavaScript supaya website bisa lebih interaktif.
+                Website ini adalah tugas dari mata kuliah Pemrograman Web yaitu proyek website portofolio yang di-deploy ke GitHub.
             </p>
         </div>
 
@@ -65,16 +67,12 @@
             <ul>
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="hobby.html">Hobi</a></li>
+                <li><a href="motto.html">Motto</a></li>
                 <li><a href="contact.html">Kontak</a></li>
             </ul>
         </div>
 
-    </div><!-- akhir wrapper -->
-
-    <!-- ===== FOOTER ===== -->
-    <div id="footer">
-        <p>&copy; 2026 Website Saya. Dibuat dengan semangat belajar.</p>
     </div>
-
 </body>
 </html>

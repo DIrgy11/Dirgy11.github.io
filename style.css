@@ -40,8 +40,8 @@ body {
 /* --- Navigasi Horizontal --- */
 #navigasi {
     background-color: #0b1329;
-    overflow: hidden;
     border-bottom: 1px solid #1e3a8a;
+    overflow: visible; /* Agar dropdown menu tidak terpotong */
 }
 
 #navigasi a {
@@ -66,6 +66,43 @@ body {
     background-color: #2563eb;
     color: #ffffff;
     border-bottom: 3px solid #60a5fa;
+}
+
+/* --- Dropdown Navigasi di About Me --- */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0b1329;
+    min-width: 170px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    border: 1px solid #1e3a8a;
+    border-top: none;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 16px;
+    border-bottom: 1px solid #1e293b;
+    border-left: none;
+    border-right: none;
+    white-space: nowrap;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: none;
+}
+
+/* Tampilkan dropdown saat kursor diarahkan ke tombol */
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 /* --- Wrapper layout 2 kolom --- */
@@ -101,11 +138,11 @@ body {
 
 /* --- Gambar di halaman utama --- */
 #gambar-utama {
-    border: 3px solid #3b82f6;
+    border: 3px solid #cadcf9;
     display: block;
     margin: 12px 0;
     width: 300px;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 #gambar-utama:hover {
@@ -191,59 +228,6 @@ table tr:nth-child(even) {
 
 table tr:nth-child(odd) {
     background-color: #0f172a;
-}
-
-/* --- Form kontak --- */
-.form-kontak label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 4px;
-    margin-top: 12px;
-    font-size: 14px;
-    color: #93c5fd;
-}
-
-.form-kontak input[type="text"],
-.form-kontak input[type="email"],
-.form-kontak textarea {
-    width: 95%;
-    padding: 8px;
-    border: 1px solid #334155;
-    background-color: #0f172a;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    border-radius: 4px;
-}
-
-.form-kontak input[type="text"]:focus,
-.form-kontak input[type="email"]:focus,
-.form-kontak textarea:focus {
-    outline: none;
-    border-color: #3b82f6;
-}
-
-.form-kontak textarea {
-    height: 100px;
-    resize: vertical;
-}
-
-.form-kontak input[type="submit"] {
-    margin-top: 15px;
-    padding: 9px 25px;
-    background-color: #2563eb;
-    color: #ffffff;
-    border: none;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 4px;
-    transition: 0.2s;
-}
-
-.form-kontak input[type="submit"]:hover {
-    background-color: #1d4ed8;
 }
 
 /* --- Footer --- */
