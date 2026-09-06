@@ -231,7 +231,7 @@ table tr:nth-child(odd) {
 }
 
 /* --- Footer --- */
-#footer {
+.footer {
     background-color: #020617;
     color: #64748b;
     border-top: 1px solid #1e293b;
