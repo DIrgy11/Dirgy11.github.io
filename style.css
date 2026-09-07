@@ -1,19 +1,14 @@
-/* ===========================
-   style.css - Tema Dark Blue
-   =========================== */
-
 /* --- Reset sederhana --- */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* --- Gaya dasar body (Background Gelap) --- */
 body {
-    background-color: #0f172a; /* Biru sangat gelap (slate) */
+    background-color: #0f172a;
     font-family: Arial, sans-serif;
     font-size: 15px;
-    color: #e2e8f0; /* Teks putih keabuan terang */
+    color: #e2e8f0;
 }
 
 /* --- Header / Judul Atas --- */
